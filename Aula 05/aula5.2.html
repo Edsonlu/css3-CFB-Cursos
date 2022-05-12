@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFB - Cursos aula 5.2 background-clip</title>
+  <style>
+    #d1, #d2, #d3 {
+      border: 10px dotted black;
+      padding: 50px;
+      background-image: url(cores.png);
+      font-size: 25px;
+      font-weight: bold;
+    }
+    #d1 {
+      background-clip: border-box;
+    }
+    #d2 {
+      background-clip: padding-box;
+    }
+    #d3 {
+      background-clip: content-box;
+    }
+  </style>
+</head>
+<body>
+  <div id="d1">Canal fessor Bruno</div><br>
+  <div id="d2">Canal fessor Bruno</div><br>
+  <div id="d3">Canal fessor Bruno</div>
+</body>
+</html>
